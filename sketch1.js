@@ -22,7 +22,7 @@ function setup() {
   speechRec.interimResults = false;
 
   speechSynth = new p5.Speech();
-  speechSynth.setLang("en-UK");
+  speechSynth.setLang("en-US");
 
   // Handle Send button for typed text
   sendBtn.mousePressed(() => {
