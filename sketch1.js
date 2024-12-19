@@ -22,7 +22,7 @@ function setup() {
   speechRec.interimResults = false;
 
   speechSynth = new p5.Speech();
-  speechSynth.setLang("en-US");
+  speechSynth.setLang("en-US"); // us voice is a girl on mac uk voice is boy
 
   // Handle Send button for typed text
   sendBtn.mousePressed(() => {
